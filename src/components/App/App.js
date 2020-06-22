@@ -4,6 +4,7 @@ import { orange, yellow } from '@material-ui/core/colors';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Cover from '../Cover/Cover';
+import AboutMe from '../AboutMe/AboutMe';
 
 const theme = createMuiTheme({
   palette: {
@@ -21,6 +22,7 @@ const App = () => (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Cover />
+      <AboutMe />
     </ThemeProvider>
   </Fragment>
 );
