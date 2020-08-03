@@ -19,7 +19,7 @@ const socialMedia = [
     icon: <LinkedInIcon />,
   },
   {
-    href: 'mailto:albertopdrf@gmail.com',
+    href: 'mailto:hey@albertopdrf.com',
     icon: <EmailIcon />,
   },
   {
