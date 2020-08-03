@@ -5,6 +5,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Cover from '../Cover/Cover';
 import AboutMe from '../AboutMe/AboutMe';
+import TimeLines from '../TimeLines/TimeLines';
 import Technologies from '../Technologies/Technologies';
 import Projects from '../Projects/Projects';
 
@@ -25,6 +26,7 @@ const App = () => (
       <CssBaseline />
       <Cover />
       <AboutMe />
+      <TimeLines />
       <Technologies />
       <Projects />
     </ThemeProvider>
