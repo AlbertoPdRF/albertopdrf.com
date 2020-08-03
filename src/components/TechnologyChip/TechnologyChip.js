@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const TechnologyChip = (props) => {
-  const { name, icon } = props;
+  const { name, icon, ...rest } = props;
 
   const classes = useStyles();
 
@@ -22,6 +22,7 @@ const TechnologyChip = (props) => {
         <Avatar src={`../../../images/technologies/${icon}`} alt={name} />
       }
       label={name}
+      {...rest}
     />
   );
 };
