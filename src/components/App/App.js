@@ -5,6 +5,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Cover from '../Cover/Cover';
 import AboutMe from '../AboutMe/AboutMe';
+import Projects from '../Projects/Projects';
 
 const theme = createMuiTheme({
   palette: {
@@ -23,6 +24,7 @@ const App = () => (
       <CssBaseline />
       <Cover />
       <AboutMe />
+      <Projects />
     </ThemeProvider>
   </Fragment>
 );
