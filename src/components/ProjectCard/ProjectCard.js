@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
   margin: {
     margin: theme.spacing(2, 0),
   },
+  right: {
+    float: 'right',
+  },
 }));
 
 const ProjectCard = (props) => {
@@ -44,7 +47,7 @@ const ProjectCard = (props) => {
           return { ...t, key: t.props.name };
         })}
       </CardContent>
-      <CardActions style={{ float: 'right' }}>
+      <CardActions className={classes.right}>
         <Button
           color="primary"
           href={repository}
