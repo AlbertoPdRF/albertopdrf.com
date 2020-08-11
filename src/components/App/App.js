@@ -9,6 +9,7 @@ import TimeLines from '../TimeLines/TimeLines';
 import Technologies from '../Technologies/Technologies';
 import Projects from '../Projects/Projects';
 import Articles from '../Articles/Articles';
+import Footer from '../Footer/Footer';
 
 const theme = createMuiTheme({
   palette: {
@@ -31,6 +32,7 @@ const App = () => (
       <Technologies />
       <Projects />
       <Articles />
+      <Footer />
     </ThemeProvider>
   </Fragment>
 );

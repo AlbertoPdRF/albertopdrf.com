@@ -2,10 +2,10 @@ import React from 'react';
 import Link from '@material-ui/core/Link';
 
 const SocialMediaLink = (props) => {
-  const { href, icon } = props;
+  const { href, icon, ...rest } = props;
 
   return (
-    <Link href={href} target="_blank" rel="noopener noreferrer">
+    <Link href={href} target="_blank" rel="noopener noreferrer" {...rest}>
       {icon}
     </Link>
   );
