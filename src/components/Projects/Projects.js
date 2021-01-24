@@ -19,6 +19,19 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
+    name: 'Whagon',
+    coverPhoto: 'whagon.png',
+    description:
+      "What's going on (Whagon) is a web application to quickly check what's happening on a GitHub project, based on GitHub's Events API",
+    technologies: [
+      <TechnologyChip name="React" icon="react.png" />,
+      <TechnologyChip name="Ruby on Rails" icon="ror.png" />,
+      <TechnologyChip name="PostgreSQL" icon="psql.png" />,
+    ],
+    repository: 'https://github.com/AlbertoPdRF/whats-going-on',
+    live: 'https://whagon.herokuapp.com',
+  },
+  {
     name: 'Tisn',
     coverPhoto: 'tisn.png',
     description:
