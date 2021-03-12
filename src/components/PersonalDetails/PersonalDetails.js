@@ -34,13 +34,13 @@ const personalDetails = [
   },
   {
     emoji: <Emoji emoji="🎓" name="Graduation cap" />,
-    title: 'Physics',
-    subheader: 'MSc in Nuclear Physics',
+    title: 'Nuclear Physics',
+    subheader: 'PhD in progress',
   },
   {
     emoji: <Emoji emoji="💻" name="Personal computer" />,
-    title: 'Self-taught web developer',
-    subheader: 'React, Node.js, and Ruby on Rails',
+    title: 'Self-taught developer',
+    subheader: 'C++, React, Ruby on Rails',
   },
 ];
 

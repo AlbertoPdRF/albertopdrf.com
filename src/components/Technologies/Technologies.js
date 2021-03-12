@@ -22,32 +22,32 @@ const useStyles = makeStyles((theme) => ({
 
 const technologies = [
   {
-    name: 'React',
-    icon: 'react.png',
+    name: 'C++',
+    icon: 'cpp.png',
   },
   {
-    name: 'Node.js',
-    icon: 'node-js.png',
+    name: 'React',
+    icon: 'react.png',
   },
   {
     name: 'Ruby on Rails',
     icon: 'ror.png',
   },
   {
-    name: 'MongoDB',
-    icon: 'mongodb.png',
+    name: 'Node.js',
+    icon: 'node-js.png',
   },
   {
     name: 'PostgreSQL',
     icon: 'psql.png',
   },
   {
-    name: 'MySQL',
-    icon: 'mysql.png',
+    name: 'MongoDB',
+    icon: 'mongodb.png',
   },
   {
-    name: 'C++',
-    icon: 'cpp.png',
+    name: 'MySQL',
+    icon: 'mysql.png',
   },
 ];
 

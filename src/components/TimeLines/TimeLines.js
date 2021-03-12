@@ -44,15 +44,15 @@ const data = [
     key: 'experience',
     items: [
       {
-        period: '2020',
-        title: 'Internship',
-        location: 'MLH Fellowship powered by GitHub',
-      },
-      {
         period: '2018 - present',
         title: 'Predoctoral researcher',
         location:
           'CIEMAT (Research Center for Energy, Environment and Technology)',
+      },
+      {
+        period: '2020',
+        title: 'Internship',
+        location: 'MLH Fellowship powered by GitHub',
       },
       {
         period: '2017 - 2018',
@@ -63,16 +63,6 @@ const data = [
         period: '2017',
         title: 'Internship',
         location: 'CIEMAT',
-      },
-      {
-        period: '2016',
-        title: 'Internship',
-        location: 'UAM (Autonomous University of Madrid)',
-      },
-      {
-        period: '2015 - 2016',
-        title: 'Promoter of the "V-Cube" brand',
-        location: 'Compudid',
       },
     ],
   },
@@ -87,7 +77,7 @@ const data = [
       {
         period: '2016 - 2017',
         title: 'MSc in Nuclear Physics',
-        location: 'UAM',
+        location: 'UAM (Autonomous University of Madrid)',
       },
       {
         period: '2014',
