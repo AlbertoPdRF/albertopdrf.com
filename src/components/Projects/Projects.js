@@ -19,6 +19,17 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
+    name: 'ROOT File Viewer',
+    coverPhoto: 'root-file-viewer.gif',
+    description:
+      "ROOT File Viewer is an extension for Microsoft's Visual Studio Code that makes it possible to see the contents of a ROOT File with just a click, without a local installation of ROOT needed! In order to do that, it makes use of the JavaScript ROOT library",
+    technologies: [
+      <TechnologyChip name="TypeScript" icon="ts.png" />,
+    ],
+    repository: 'https://github.com/AlbertoPdRF/root-file-viewer',
+    live: 'https://marketplace.visualstudio.com/items?itemName=albertopdrf.root-file-viewer',
+  },
+  {
     name: 'Whagon',
     coverPhoto: 'whagon.png',
     description:
