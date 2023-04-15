@@ -26,6 +26,10 @@ const technologies = [
     icon: 'cpp.png',
   },
   {
+    name: 'Python',
+    icon: 'python.png',
+  },
+  {
     name: 'React',
     icon: 'react.png',
   },

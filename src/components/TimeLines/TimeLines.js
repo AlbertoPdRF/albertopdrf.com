@@ -44,10 +44,16 @@ const data = [
     key: 'experience',
     items: [
       {
-        period: '2018 - present',
-        title: 'Predoctoral researcher',
+        period: '2023 - present',
+        title: 'Researcher',
         location:
           'CIEMAT (Research Center for Energy, Environment and Technology)',
+      },
+      {
+        period: '2018 - 2022',
+        title: 'Predoctoral researcher',
+        location:
+          'CIEMAT',
       },
       {
         period: '2020',
@@ -70,8 +76,8 @@ const data = [
     key: 'education',
     items: [
       {
-        period: '2017 - present',
-        title: 'PhD in Nuclear Physics',
+        period: '2017 - 2023',
+        title: 'PhD in Physics',
         location: 'UCM (Complutense University of Madrid)',
       },
       {
@@ -80,14 +86,14 @@ const data = [
         location: 'UAM (Autonomous University of Madrid)',
       },
       {
-        period: '2014',
-        title: 'English language immersion course',
-        location: 'UIMP (Menéndez Pelayo International University)',
-      },
-      {
         period: '2012 - 2016',
         title: 'Physics degree',
         location: 'UAM',
+      },
+      {
+        period: '2014',
+        title: 'English language immersion course',
+        location: 'UIMP (Menéndez Pelayo International University)',
       },
     ],
   },

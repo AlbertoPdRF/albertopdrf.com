@@ -35,12 +35,12 @@ const personalDetails = [
   {
     emoji: <Emoji emoji="🎓" name="Graduation cap" />,
     title: 'Nuclear Physics',
-    subheader: 'PhD in progress',
+    subheader: 'PhD',
   },
   {
     emoji: <Emoji emoji="💻" name="Personal computer" />,
     title: 'Self-taught developer',
-    subheader: 'C++, React, Ruby on Rails',
+    subheader: 'C++, Python, JavaScript, Ruby',
   },
 ];
 
