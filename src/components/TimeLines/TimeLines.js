@@ -50,10 +50,19 @@ const data = [
           'CIEMAT (Research Center for Energy, Environment and Technology)',
       },
       {
+        period: '2023',
+        title: 'Research stay',
+        location: 'CERN (European Organization for Nuclear Research)',
+      },
+      {
         period: '2018 - 2022',
         title: 'Predoctoral researcher',
-        location:
-          'CIEMAT',
+        location: 'CIEMAT',
+      },
+      {
+        period: '2019',
+        title: 'Predoctoral research stay',
+        location: 'JYU (University of Jyväskylä)',
       },
       {
         period: '2020',
